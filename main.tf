@@ -10,7 +10,6 @@ resource "aws_instance" "docker" {
     subnet_id                   = var.subnet
     associate_public_ip_address = true
     user_data                   = file("user-data.sh")
-    tags                        = merge(map("Name", var.name), var.default_tags)
     key_name                    = var.keypair
 }
 
