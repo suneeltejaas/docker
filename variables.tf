@@ -1,0 +1,10 @@
+variable "name" {}
+variable "region" {}
+variable "instancetype" {}
+variable "ami" {}
+variable "vpc" {}
+variable "subnet" {}
+variable "default_tags" {}
+variable "keypair"  {}
+variable "sshSecurityGroup" {}
+variable "addlDiskSizeinGB" {}
