@@ -11,3 +11,5 @@ default_tags = {
 keypair = "suneel-test"
 sshSecurityGroup = "sg-0171b9eb291b9d915"
 addlDiskSizeinGB = 20
+access_key = "sfasfsd"
+secret_key = "askfjhskd"

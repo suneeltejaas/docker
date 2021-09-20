@@ -8,3 +8,5 @@ variable "default_tags" {}
 variable "keypair"  {}
 variable "sshSecurityGroup" {}
 variable "addlDiskSizeinGB" {}
+variable "access_key" {}
+variable "secret_key" {}
